@@ -1,0 +1,278 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+%%%%%%% Only work in xelatex
+%\usepackage{fontspec} % For loading fonts
+%\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+%\usepackage{xunicode,xltxtra}
+
+\usepackage{url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+\addtolength{\voffset}{-2cm}
+\addtolength{\textheight}{4cm}
+\addtolength{\hoffset}{-0.5cm}
+\addtolength{\textwidth}{+1cm}
+
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{1pt}{1pt} % Spacing around sections
+
+\begin{document}
+
+
+% Headers and footers
+\pagestyle{fancy}
+\fancyhf{}
+\lfoot{\today}
+\rfoot{Page \thepage}
+\renewcommand{\footrulewidth}{1pt}
+
+%\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge \textsc{Curriculum Vitae}}\bigskip\par} % Your name
+
+\section{Personal Data}
+
+\begin{tabular}{lp{1.5cm}r}
+	\textbf{Clemens Fiedler}& & \\
+Tilburg University 					& &+31 13 466 2326\\
+Department of Economics				& &\href{c.fiedler@tilburguniversity.edu}{c.fiedler@uvt.nl}\\
+PO Box 90153						& &\href{https://clemensfiedler.com/}{clemensfiedler.com}\\
+Tilburg 5000 LE, The Netherlands	& & \\
+& & \\
+Born: 1988, March 31 in Linz, Austria & & \\
+Nationality: Austrian & &
+\end{tabular}\vspace{1cm}
+%TODO: personal address if applicable
+
+\par
+
+
+\section{Work Experience}
+
+\begin{tabular}{p{12cm} r}
+	Ph.D. Candidate in Economics, \textbf{Tilburg University} &September 2015 -\\
+	\small Supervisors:  \textsc{Jan Boone},  \textsc{Florian Schütt} & Current\phantom{ -}\\
+	\begin{itemize}[noitemsep]
+		\item Focus on competition and innovation in high-tech and software markets.
+		\item What drives firms to invest into high-quality and innovation?
+		\item Methods used are theoretical models and computational simulations.
+	\end{itemize}&\\
+\end{tabular}\vspace{1cm}
+
+
+\section{Education}
+
+\begin{tabular}{p{12cm} r}
+
+	M.Sc. (Research Master) in Economics, \textbf{Tilburg University}&  August 2013 - \\
+	Cum Laude, Major: Microeconomic Theory, Minor: Econometrics& September 2015\phantom{ -}\\
+	Thesis: Asymmetric Agents and their Willingness to Fight \\
+	\small Supervisor: \textsc{Jan Boone}\\
+	\begin{itemize}[noitemsep]
+		\item I analyzed a market with firms competing in R\&D and prices.
+		\item When does R\&D behave as strategic complements or substitutes?
+		\item Initial levels of asymmetry can be increased by the firms behaviour.
+	\end{itemize}&\hspace{1cm}\\
+
+	%------------------------------------------------		
+	M.Sc. in Economics \textbf{Vienna University of Business and Economics}& August 2011 -  \\
+	Passed with Distinction, Major: Mathematics, Thesis:& July 2013\phantom{ -}\\
+	{The Tullock-Lottery as a Sub Contest for a Discrete Tug-of-War-Competition.} \hspace{1cm}\\
+	
+	%------------------------------------------------	
+	B.Sc. in Business, Economics and Social Sciences& September 2006 - \\ 
+	\normalsize\textbf{Vienna University of Business and Economics}& March 2011\phantom{ -}\\
+\end{tabular}\vspace{1cm} \\ \hspace{1cm}
+
+%----------------------------------------------------------------------------------------
+%	TEACHING EXPERIENCE 
+%----------------------------------------------------------------------------------------
+\section{Teaching Experience}
+\begin{tabular}{p{12cm} r}
+
+\textbf{Tilburg University}\\
+\hspace{0.5cm}Programming for Economists (B.Sc.), TA & 2017 - 2018\\
+\hspace{0.5cm}Competition and Regulation for Economists (B.Sc.), TA  & 2016 - 2018\\
+\hspace{0.5cm}Supervision of Bachelor Theses & 2016 - 2018 \\
+\hspace{0.5cm}Introduction to LaTeX (Graduate School), Lecturer \& Organizer & 2014 - 2017 \\
+\multicolumn{2}{c}{} \\
+
+\textbf{Vienna University of Business and Economics}\\
+\hspace{0.5cm}Game Theory (M.Sc.), TA &2012, 2013\\
+\hspace{0.5cm}Managerial Economics (M.Sc.), TA &2013\\
+\hspace{0.5cm}Adv. Microeconomics (B.Sc.), TA &2013\\
+\end{tabular}
+
+\newpage
+\section{Extracurricular Activities }
+
+\begin{tabular}{p{12cm} r}
+	\textbf{Board Member}  &September 2017 -\\
+	Tilburg PhD Platform (TiPP), {Tilburg University} & Present\phantom{ -}\\
+	\begin{itemize}[noitemsep]
+		\item Representation of Ph.D. candidates of the TiSEM within the university.
+		\item Information sharing between schools and management.
+		\item Organizing activities for Ph.D. candidates.
+		\item Improving situation of the Ph.D. candidates and graduate programs.
+	\end{itemize}&\\
+	\textbf{Organizer}  &September 2017 -\\
+	Programming Group, {Tilburg University} & Present\phantom{ -}\\
+	\begin{itemize}[noitemsep]
+		\item Founding the TiSEM programming group.
+		\item Setting up the infrastructure, communication and strategic plan.
+		\item Attracting lecturers and coordinating seminar schedule.
+	\end{itemize}&\\
+	%------------------------------------------------	
+	\textbf{Council Member}  &March 2017 -\\
+	Faculty Council (TiSEM), {Tilburg University} & Present\phantom{ -}\\
+	\begin{itemize}[noitemsep]
+		\item Participation in decision making process of TiSEM.
+		\item Advising management team and consenting to policies.
+		\item Discussing and approving policy changes and budgets of TiSEM.
+	\end{itemize}&\\
+	%------------------------------------------------	
+	\textbf{Chairman}  &June 2016 -\\
+	Graduate Students' Society, {Tilburg University} & Present\phantom{ -}\\
+	\begin{itemize}[noitemsep]
+		\item Planning and coordinating the activities of the GSS.
+		\item Conducting meetings with stakeholders of the Graduate School.
+		\item Decision making on activities and strategies of the GSS.
+	\end{itemize}&\\
+	%------------------------------------------------	
+	\textbf{IT Coordinator} &August 2014 -\\
+	Graduate Students' Society, {Tilburg University}  & September 2016\phantom{ -}\\
+	\begin{itemize}[noitemsep]
+	\item Maintaining website, Facebook presence, mailing list and newsletter.
+	\item Organizing and conducting specialist courses and providing IT knowledge.
+\end{itemize}&\\
+	%------------------------------------------------	
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	Skills
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\begin{tabular}{lp{9cm}}
+	Languages: & English (fluent), German (native), Dutch (basic)\\
+	Advanced Knowledge: & Python (Pandas, SciPy, SciKit-learn), \LaTeX, GitHub, Mathematica, MatLAB \\
+	Basic Knowledge: & Stata, R, Java
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Interests \& Activities}
+\begin{tabular}{ll}
+	Research Interests: & Industrial Organizations, Computational Economics and \\
+						& Competition in R\&D and ICT\\
+	Personal Interests: & Technology, Physics and Science Fiction\\
+	Other Activities:   & Running, Cycling, Strategy Games
+\end{tabular}
+
+\section{Others}
+\begin{tabular}{lp{11cm}}
+	Mathematica: &  Contribution to the Wolfram Demonstrations Project\\ &\scriptsize{(http://demonstrations.wolfram.com/BestResponseLearningInACournotFramework)}\\
+	Github: & https://github.com/clemensfiedler/
+\end{tabular}
+
+\section{References.}
+Available upon request.
+
+%\section{References}
+%\begin{tabular}{rp{11cm}}
+%	\textbf{Prof. Ulrich Berger:} &  Head of the Institute for Analytical Economics at \\ 
+%	Phone: +43 1 31336-4562 &\textbf{Vienna University of Business and Economics}\\ 
+%	email: ulrich.berger@wu.ac.at & Faculty Member of the \textbf{Vienna Graduate School of Economics}\\
+%	\hline
+%	\textbf{Prof. Ulrich Berger:} &  Head of the Institute for Analytical Economics at \\ 
+%	Phone: +43 1 31336-4562 &\textbf{Vienna University of Business and Economics}\\ 
+%	email: ulrich.berger@wu.ac.at & Faculty Member of the \textbf{Vienna Graduate School of Economics}
+%\end{tabular}
+
+\newpage
+%----------------------------------------------------------------------------------------
+%	Research
+%----------------------------------------------------------------------------------------
+\newpage
+\section{Research}
+
+	\textbf{Should we Intervene in the Demand of Firms in the Software Market?}\\
+	(Work in Progress)
+	\begin{quotation}
+		In this paper, we study how a research and development cost structure that scales imperfectly with the number of customers impacts the strategic decisions of firms. It can explain why some markets encourage a small firm to behave submissively while it acts aggressively on other markets. Two firms compete in R\&D efforts. Efforts attract customers from the competitor and increase the revenue per customer. The cost of efforts depends partially on the number of customers. We show how this cost structure can generate an inverse u-shaped reaction function of the firms' efforts. We derive conditions under which both firms can increase their efforts in response to an intervention supporting the market leader and under which such an intervention can only encourage the leader or only the laggard. The outcome hinges on whether a laggard becomes more or less competitive as they lose market share. Using three exemplary markets - for hardware, software, and platform technology - we illustrate the importance of this effect to regulators interested in stimulating innovation.
+	\end{quotation}
+		
+
+
+%----------------------------------------------------------------------------------------
+%	Conferences and other Presentations 
+%----------------------------------------------------------------------------------------
+
+\section{Conferences and other Presentations }
+
+\begin{tabular}{p{12cm}r}
+	FinTech and Competition in the Financial Sector Workshop, CPB, Den Haag &2018\\
+	European Network for Training in Economic Research Jamboree, Toulouse&2018\\
+	EARIE Annual Conference, Maastricht &2017\\
+	Bergen Competition Policy Conference (BECCLE), Bergen&2017\\
+	European Network for Training in Economic Research Jamboree, London&2017\\
+	Competition Law and Economics European Network Workshop, Bonn&2016\\
+	European Network for Training in Economic Research Jamboree, Madrid &2016\\
+	ESCARES Seminar ULB, Brussles& 2016\\
+	Big data, Platforms and Privacy Workshop, CPB, Den Haag &2016
+\end{tabular}
+
+
+
+
+%----------------------------------------------------------------------------------------
+
+\vfill
+
+\end{document}
