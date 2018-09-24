@@ -1,4 +1,4 @@
-\documentclass[a4paper,12pt]{article}
+\documentclass[a4paper,8pt]{article}
 
 %=============================================================
 % Packages
@@ -7,12 +7,15 @@
 
 	\usepackage{fancyhdr}
 	\usepackage{enumitem}
+		\setlist{noitemsep}
+		\setlist[1]{\labelindent=\parindent}
 
 	\usepackage{url,parskip} 
 
 	\usepackage[usenames,dvipsnames]{xcolor} 
 
-	\usepackage[big]{layaureo}
+%	\usepackage[big]{layaureo}
+	\usepackage[a4paper, left=1cm, right=1cm, top=1cm, bottom=1cm]{geometry}
 
 %	\addtolength{\voffset}{-2cm}
 %	\addtolength{\textheight}{4cm}
@@ -27,216 +30,122 @@
 	\usepackage{titlesec}
 	\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule \vspace{5pt}] 
 	\titlespacing{\section}{0pt}{1pt}{1pt}
-	\titleformat{\subsection}{\large\scshape\raggedright}{}{0em}{} 
-	\titlespacing{\subsection}{0pt}{1pt}{1pt}
 
+
+	\setlength{\abovedisplayskip}{0pt}
 
 %=============================================================
 % Document
 %=============================================================
 
 \begin{document}
-
+\thispagestyle{empty}
 
 % Headers and footers
-\pagestyle{fancy}
-\fancyhf{}
-\lfoot{\today}
-\rfoot{Page \thepage}
-\renewcommand{\footrulewidth}{1pt}
-\renewcommand{\headrulewidth}{0pt}
+%\pagestyle{fancy}
+%\fancyhf{}
+%%\lfoot{\today}
+%\rfoot{Page \thepage}
+%\renewcommand{\footrulewidth}{1pt}
+%\renewcommand{\headrulewidth}{0pt}
 
 
 %----------------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION
 %----------------------------------------------------------------------------------------
 
-\par{\centering{\Huge \textsc{Curriculum Vitae}}\bigskip\par} % Your name
+\textsc{\Huge Clemens Fiedler}
 
-\section{Personal Data}
-
-\begin{tabular}{lp{2.5cm}r}
-	\textbf{Clemens Fiedler}& & \\
-Tilburg University 					& &+31 13 466 2326\\
-Department of Economics				& &\href{c.fiedler@tilburguniversity.edu}{c.fiedler@uvt.nl}\\
-PO Box 90153						& &\href{https://clemensfiedler.com/}{clemensfiedler.com}\\
-Tilburg 5000 LE, The Netherlands	& &\href{https://www.linkedin.com/in/clemens-fiedler-2b5053149/}{LinkedIn}\\
-& & \\
-Born: 1988, March 31 in Linz, Austria & & \\
-Nationality: Austrian & &
-\end{tabular}\vspace{2em}
+website: \href{https://clemensfiedler.com/}{clemensfiedler.com} $\vert$ 
+email: \href{mailto:clemens.mb.fiedler@gmail.com}{clemens.mb.fiedler@gmail.com}$\vert$ 
+LinkedIn: \href{www.linkedin.com/in/clemensfiedler}{linkedin.com/in/clemensfiedler}
+phone: +31 6 40279054 $\vert$ address: Professor de Moorplein 451, 5037DR, Tilburg (NL)\\
+Nationality: Austrian
 
 \section{Profile}
 
 \begin{itemize}[noitemsep]
 	\item Extensive background in \textbf{Economics} and \textbf{Industrial Organization}.
 	\item Very good experience in \textbf{programming} and \textbf{numerical simulations} in \textbf{Python}.
-	\item Active \textbf{teacher of programming} skills on the under- and post-graduate level.
-	\item Excellent ability in \textbf{teamwork}, in \textbf{coordination} and \textbf{leadership} as used in the Graduate Student Society, teaching activity and personal initiatives.
+	\item Active \textbf{teacher of programming} skills at the under- and post-graduate level.
+	\item Excellent ability to \textbf{teamwork}, \textbf{coordinate} in \textbf{leadership} and willingness to take the initiative as used\\ in the Graduate Student Society, teaching activity and personal initiatives.
 \end{itemize}
 
 \section{Work Experience}
 
-\begin{tabular}{p{12cm} r}
-	Ph.D. Candidate in Economics, \textbf{Tilburg University} &September 2015 -\\
+\begin{tabular}{p{15cm} r}
+	\textbf{Ph.D. Candidate in Economics, Tilburg University} &September 2015 -\\
 	\small Supervisors:  \textsc{Jan Boone},  \textsc{Florian Schütt} & Current\phantom{ -}\\
-\end{tabular}
+\end{tabular}\vspace{-0.5em}
 \begin{itemize}[noitemsep]
-	\item Focus on competition and innovation in high-tech and software markets.
-	\item What drives firms to invest into high-quality and innovation?
-	\item Methods used are theoretical models and computational simulations.
+	\item Research on competition and innovation in high-tech and software markets.
+	\item Used of theoretical models, computational simulations and empirical methods.
+	\item Taught courses on competition policy and programming at Bachelor's and Master's level.
+	\item Organized courses on programming for PhD candidates and Faculty.
 \end{itemize}
 
 \section{Education}
 
-\begin{tabular}{p{12cm} r}
-	M.Sc. (Research Master) in Economics&  August 2013 - \\
-	\textbf{Tilburg University}& September 2015\phantom{ -}\\
-	Cum Laude, Major: Microeconomic Theory, Minor: Econometrics\vspace{0.5em}\\
-
-	%------------------------------------------------		
-	M.Sc. in Economics & August 2011 -  \\
-	\textbf{Vienna University of Business and Economics}& July 2013\phantom{ -}\\
-	Passed with Distinction, Major: Mathematics&\vspace{0.5em}\\ 
-	
-	%------------------------------------------------	
-	B.Sc. in Business, Economics and Social Sciences& September 2006 - \\ 
-	\normalsize\textbf{Vienna University of Business and Economics}& March 2011\phantom{ -}\\
+\begin{tabular}{p{15cm} r}
+	\textbf{M.Sc. (Research Master) in Economics, Tilburg University}&  August 2013 -\\
+	Cum Laude, Major: Microeconomic Theory, Minor: Econometrics& September 2015\hphantom{-}
+	\vspace{0.5em}\\		
+	\textbf{M.Sc. in Economics, Vienna University of Business and Economics}& August 2011 -\\
+	Passed with Distinction, Major: Mathematics & July 2013\phantom{-}
+	\vspace{0.5em}\\ 
+	\textbf{B.Sc. in Business, Economics and Social Sciences}& September 2006 -\\ 
+	\textbf{Vienna University of Business and Economics}& March 2011\phantom{- }\\
 \end{tabular}\\
 
 \section{Extracurricular Activities }
 
-\begin{tabular}{p{12cm}r}
-	\textbf{Board Member}  &September 2017 -\\
-	Tilburg PhD Platform (TiPP), {Tilburg University} & Present\phantom{ -}\\
-\end{tabular}
-\begin{itemize}[noitemsep]
-	\item Representation of Ph.D. candidates of the TiSEM within the university.
-	\item Information sharing between schools and management.
-	\item Organizing activities for Ph.D. candidates.
-	\item Improving situation of the Ph.D. candidates and graduate programs.
-\end{itemize}\vspace{1em}\\
-
-\begin{tabular}{p{12cm}r}
-\textbf{Organizer}  &September 2017 -\\
-Programming Group, {Tilburg University} & Present\phantom{ -}\\
-\end{tabular}
-\begin{itemize}[noitemsep]
-	\item Founding the TiSEM programming group.
-	\item Setting up the infrastructure, communication and strategic plan.
-	\item Attracting lecturers and coordinating seminar schedule.
-\end{itemize}\vspace{1em}\\
-
-\begin{tabular}{p{12cm}r}
-\textbf{Council Member}  &March 2017 -\\
-Faculty Council (TiSEM), {Tilburg University} & September 2018\phantom{ -}\\
-\end{tabular}
-\begin{itemize}[noitemsep]
-	\item Participation in decision making process of TiSEM.
-	\item Advising management team and consenting to policies.
-	\item Discussing and approving policy changes and budgets of TiSEM.
-\end{itemize}\vspace{1em}\\
-
-\begin{tabular}{p{12cm}r}
-\textbf{Chairman}  &June 2016 -\\
-Graduate Students' Society, {Tilburg University} & September 2018\phantom{ -}\\
-\end{tabular}
-\begin{itemize}[noitemsep]
-	\item Planning and coordinating the activities of the GSS.
-	\item Conducting meetings with stakeholders of the Graduate School.
-	\item Decision making on activities and strategies of the GSS.
-\end{itemize}\vspace{1em}\\
-
-\begin{tabular}{p{12cm}r}
-\textbf{IT Coordinator} &August 2014 -\\
-Graduate Students' Society, {Tilburg University}  & September 2016\phantom{ -}\\
-\end{tabular}
+\begin{tabular}{p{15cm}r}
+\textbf{Board Member, Tilburg PhD Platform, Tilburg University}  &September 2017 -\\ \vspace{-0.5em}
+	\begin{itemize}
+		\item Representation of Ph.D. candidates of the TiSEM within the university.
+		\item Information sharing between schools and management.
+		\item Organizing activities for Ph.D. candidates.
+	\end{itemize} & Present\phantom{ -}\vspace{-1.0em}\\ 
+\textbf{Founder \& Organizer, Programming Group, Tilburg University}  &September 2017 -\\ \vspace{-0.5em}
+	\begin{itemize}[noitemsep]
+		\item Founding the TiSEM programming group.
+		\item Setting up the infrastructure, communication and strategic plan.
+		\item Attracting lecturers and coordinating seminar schedule.
+	\end{itemize} & Present\phantom{ -}\vspace{-1.0em} \\ 
+\textbf{Council Member, Faculty Council (TiSEM), Tilburg University}  &March 2017 -\\ \vspace{-0.5em}
+	\begin{itemize}[noitemsep]
+		\item Participation in decision making process of TiSEM.
+		\item Advising management team and consenting to policies.
+		\item Discussing and approving policy changes and budgets of TiSEM.
+	\end{itemize} & September 2018\phantom{ -}\vspace{-1.0em} \\
+\textbf{Chairman, Graduate Students' Society, Tilburg University}  &June 2016 -\\ \vspace{-0.5em}
+	\begin{itemize}[noitemsep]
+		\item Planning and coordinating the activities of the GSS.
+		\item Conducting meetings with stakeholders of the Graduate School.
+		\item Decision making on activities and strategies of the GSS.
+	\end{itemize} & September 2018\phantom{ -}\vspace{-1.0em} \\
+\textbf{IT Coordinator, Graduate Students' Society, Tilburg University} &August 2014 -\\ \vspace{-0.5em}
 \begin{itemize}[noitemsep]
 	\item Setting up a Facebook group and a mailing list.
 	\item Maintaining website, composing newsletter.
 	\item Organizing and conducting specialist courses and providing IT knowledge.
-\end{itemize}\\
-
-%----------------------------------------------------------------------------------------
-%	TEACHING EXPERIENCE 
-%----------------------------------------------------------------------------------------
-\section{Teaching Experience}
-
-\begin{tabular}{p{12cm} r}
-	
-	\textbf{Tilburg University}\\
-	\hspace{0.5cm}Programming for Economists (B.Sc.), TA & 2017 - 2018\\
-	\hspace{0.5cm}Competition and Regulation for Economists (B.Sc.), TA  & 2016 - 2018\\
-	\hspace{0.5cm}Supervision of Bachelor Theses & 2016 - 2018 \\
-	\hspace{0.5cm}Introduction to LaTeX (Graduate School), Lecturer \& Organizer & 2014 - 2017 \\
-	\multicolumn{2}{c}{} \\
-	
-	\textbf{Vienna University of Business and Economics}\\
-	\hspace{0.5cm}Game Theory (M.Sc.), TA &2012, 2013\\
-	\hspace{0.5cm}Managerial Economics (M.Sc.), TA &2013\\
-	\hspace{0.5cm}Adv. Microeconomics (B.Sc.), TA &2013\\
+\end{itemize}  & September 2016\phantom{ -} \vspace{-1.0em} \\ 
 \end{tabular}
 
-
-%----------------------------------------------------------------------------------------
-%	Skills
-%----------------------------------------------------------------------------------------
-
-\section{Others}
-\begin{tabular}{lp{11cm}}
-	Mathematica: &  Contribution to the Wolfram Demonstrations Project\\ &\scriptsize{(http://demonstrations.wolfram.com/BestResponseLearningInACournotFramework)}\\
-	Github: & https://github.com/clemensfiedler/
-\end{tabular}
-
-\section{Technical Skills}
-
-
-\subsection{Overview}\vspace{1em}
+\section{Skills}
 \begin{tabular}{p{0.3\linewidth}p{0.3\linewidth}p{0.3\linewidth}}
-	\textbf{Languages}	& \textbf{Software}\\
-	English (fluent)	& Python (very good)\\
-	German (native)		& \LaTeX (very good)\\
-	Dutch (basic)		& GitHub (very good)\\
-						& Mathematica (good)\\
-						& R (good)
+	\textbf{Languages}	& \textbf{Software} & Mathematica (good)\\
+	English (fluent)	& Python (very good)& R (good)\\
+	German (native)		& \LaTeX (very good)& \\
+	Dutch (basic)		& Git\&GitHub (very good)& \\
 \end{tabular}
-
-\subsection{Programming}
-
-\begin{itemize}[noitemsep]
-	\item Heavy use of Python based simulations in my Dissertation.
-	\item Teaching of Python and R on Bachelor level.
-	\item Organizing course in programming for Ph.D. Candidates and Faculty.
-	\item Online Courses on Python, DataScience and Machine Learning.
-	\item Contribution to the Wolfram Demonstrations Project\\
-	\url{http://demonstrations.wolfram.com/BestResponseLearningInACournotFramework}
-	\item Github: \url{https://github.com/clemensfiedler/}
-\end{itemize}
-
 
 \section{Interests \& Activities}
 \begin{tabular}{ll}
-	Research Interests: & Industrial Organizations, Computational Economics and \\
-						& Competition in R\&D and ICT\\
-	Personal Interests: & Technology, Physics and Science Fiction\\
+	Research Interests: & Industrial Organizations, Computational Economics, and Competition in R\&D and ICT\\
+	Personal Interests: & Programming, Riddles, Technology, Physics and Science Fiction\\
 	Other Activities:   & Running, Cycling, Swimming, Strategy Games
 \end{tabular}
 
-%----------------------------------------------------------------------------------------
-%	Research
-%----------------------------------------------------------------------------------------
-
-\section{Research}
-
-\vspace{1em}
-
-\begin{itemize}[noitemsep]
-	\item Focus on competition and innovation in high-tech and software markets.
-	\item What drives firms to invest into high-quality and innovation?
-	\item Method used are industrial organization models and computational simulations.
-\end{itemize}
-
-	
-\vfill
 
 \end{document}
