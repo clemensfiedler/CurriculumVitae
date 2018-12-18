@@ -1,4 +1,4 @@
-\documentclass[a4paper,8pt]{article}
+\documentclass[a4paper,9pt]{article}
 
 %=============================================================
 % Packages
@@ -8,14 +8,13 @@
 	\usepackage{fancyhdr}
 	\usepackage{enumitem}
 		\setlist{noitemsep}
-		\setlist[1]{\labelindent=\parindent}
 
 	\usepackage{url,parskip} 
 
 	\usepackage[usenames,dvipsnames]{xcolor} 
 
 %	\usepackage[big]{layaureo}
-	\usepackage[a4paper, left=1cm, right=1cm, top=1cm, bottom=1cm]{geometry}
+	\usepackage[a4paper, left=1cm, right=1cm, top=1.5cm, bottom=1.5cm]{geometry}
 
 %	\addtolength{\voffset}{-2cm}
 %	\addtolength{\textheight}{4cm}
@@ -29,12 +28,14 @@
 
 	\usepackage{titlesec}
 	\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\vspace{-2pt} \titlerule \vspace{2pt}] 
-	\titlespacing{\section}{0pt}{1pt}{1pt}
+	\titlespacing{\section}{0pt}{5pt}{1pt}
+	
+	\usepackage{ragged2e}
 
 
 	\setlength{\abovedisplayskip}{0pt}
 	
-	\usepackage[default,scale=0.95]{opensans}
+	\usepackage[default,scale=1.]{opensans}
 	\usepackage{graphicx}
 
 %=============================================================
@@ -57,44 +58,45 @@
 %	NAME AND CONTACT INFORMATION
 %----------------------------------------------------------------------------------------
 
+\begin{center}
 \textsc{\Huge Clemens Fiedler}
+
+
+\vspace{-1em}\rule{\linewidth}{1pt}
 
 website: \href{https://clemensfiedler.com/}{clemensfiedler.com} $~~\vert~~$ 
 email: \href{mailto:clemens.mb.fiedler@gmail.com}{clemens.mb.fiedler@gmail.com} $~~\vert~~$ 
-LinkedIn: \href{https://www.linkedin.com/in/clemensfiedler/}{linkedin.com/in/clemensfiedler}\\
-%phone: +31 6 40279054 $\vert$ address: Professor de Moorplein 451, 5037DR, Tilburg (NL)\\
-Nationality: Austrian
+LinkedIn:  \href{https://www.linkedin.com/in/clemensfiedler/}{linkedin.com/in/clemensfiedler}\\
+Nationality: Austrian %$~~\vert~~$ phone: +31 6 40279054 $\vert$ address: Professor de Moorplein 451, 5037DR, Tilburg (NL)\\
+
+
+\end{center}
 
 \section{Profile}
 
-\begin{itemize}[noitemsep]
-	\item Extensive background in \textbf{Economics} and \textbf{Industrial Organization}.
-	\item Very good experience in \textbf{programming} and \textbf{numerical simulations} in \textbf{Python}.
-	\item Active \textbf{teacher of programming} skills at the under- and post-graduate level.
-	\item Excellent ability to \textbf{teamwork}, \textbf{coordinate} in \textbf{leadership} and willingness to take the initiative as used\\ in the Graduate Student Society, teaching activity and personal initiatives.
-\end{itemize}
+\justify{
+Curious and problem-oriented with an extensive background in \textbf{Economics} and \textbf{Industrial Organization}. Highly skilled in \textbf{programming} and  \textbf{simulations} in \textbf{Python} and an active \textbf{teacher of programming} at the Bachelor's- and Master's level. Understanding both \textbf{Game Theoretical} and \textbf{Econometric} models. A versatile, motivated, and experienced \textbf{leader}, \textbf{coordinator}, and \textbf{team worker} willing to take the initiative and engage problems head-on.}
 
 \section{Work Experience}
 
 \begin{tabular}{p{15cm} r}
 	\textbf{Ph.D. Candidate in Economics, Tilburg University} &September 2015 -\\
-	\small Supervisors:  \textsc{Jan Boone},  \textsc{Florian Schütt} & Current\phantom{ -}\\
+	\small Supervisors:  \textsc{Prof. Jan Boone},  \textsc{Dr. Florian Schütt} & expected: July 2016\phantom{ -}\\
 \end{tabular}\vspace{-0.5em}
 \begin{itemize}[noitemsep]
-	\item Research on competition and innovation in high-tech and software markets.
-	\item Using theoretical models, computational simulations and empirical methods.
+	\item Researched competition and innovation in high-tech and software markets.
+	\item Used game theoretical models, computational simulations and econometric methods.
 	\item Taught courses on competition policy and programming at Bachelor's and Master's level.
-	\item Organized courses on programming for Ph.D. Candidates and Faculty.
 \end{itemize}
 
-\section{Education}
+\section{Education}%dissertation title
 
 \begin{tabular}{p{15cm} r}
 	\textbf{M.Sc. (Research Master) in Economics, Tilburg University}&  August 2013 -\\
-	Cum Laude, Major: Microeconomic Theory, Minor: Econometrics& September 2015\hphantom{-}
-	\vspace{0.5em}\\		
+	Cum Laude, Major: Microeconomic Theory, Minor: Econometrics.& September 2015\hphantom{-}
+	\vspace{0.5em}\\
 	\textbf{M.Sc. in Economics, Vienna University of Business and Economics}& August 2011 -\\
-	Passed with Distinction, Major: Mathematics & July 2013\phantom{-}
+	With Distinction, Major: Mathematics. & July 2013\phantom{-}
 	\vspace{0.5em}\\ 
 	\textbf{B.Sc. in Business, Economics and Social Sciences}& September 2006 -\\ 
 	\textbf{Vienna University of Business and Economics}& March 2011\phantom{- }\\
@@ -105,47 +107,48 @@ Nationality: Austrian
 \begin{tabular}{p{15cm}r}
 \textbf{Board Member, Tilburg PhD Platform, Tilburg University}  &September 2017 -\\ \vspace{-0.5em}
 	\begin{itemize}
-		\item Representation of Ph.D. candidates of the TiSEM within the university.
-		\item Information sharing between schools and management.
-		\item Organizing activities for Ph.D. candidates.
+		\item Represented the interests of Ph.D. candidates within the university.
+		\item Facilitated information sharing between schools and management.
+		\item Organized courses on programming for Ph.D. Candidates and Faculty.
 	\end{itemize} & Present\phantom{ -}\vspace{-1.0em}\\ 
 \textbf{Founder \& Organizer, Programming Group, Tilburg University}  &September 2017 -\\ \vspace{-0.5em}
 	\begin{itemize}[noitemsep]
-		\item Founding the TiSEM programming group.
-		\item Setting up the infrastructure, communication and strategic plan.
-		\item Attracting lecturers and coordinating seminar schedule.
+		\item Founded the cross-disciplinary TiSEM Programming Group.
+		\item Set up the infrastructure and developed the strategic plan.
+		\item Invited lecturers and coordinated seminar schedule.
 	\end{itemize} & Present\phantom{ -}\vspace{-1.0em} \\ 
 \textbf{Council Member, Faculty Council (TiSEM), Tilburg University}  &March 2017 -\\ \vspace{-0.5em}
 	\begin{itemize}[noitemsep]
-		\item Participation in decision making process of TiSEM.
-		\item Advising management team and consenting to policies.
-		\item Discussing and approving policy changes and budgets of TiSEM.
+		\item Represented the interests of Ph.D. candidates within the Faculty.
+		\item Advised management team, discussed and approved policy and budget.
+		\item Coordinated, negotiated and lobbied with stakeholders.
 	\end{itemize} & September 2018\phantom{ -}\vspace{-1.0em} \\
 \textbf{Chairman, Graduate Students' Society, Tilburg University}  &June 2016 -\\ \vspace{-0.5em}
 	\begin{itemize}[noitemsep]
-		\item Planning and coordinating the activities of the GSS.
-		\item Conducting meetings with stakeholders of the Graduate School.
-		\item Decision making on activities and strategies of the GSS.
+		\item Planned activities of the GSS and developed the strategic plan.
+		\item Conducted meetings with stakeholders of the Graduate School.
+		\item Coordinated between the different members of the GSS board.
 	\end{itemize} & September 2018\phantom{ -}\vspace{-1.0em} \\
 \textbf{IT Coordinator, Graduate Students' Society, Tilburg University} &August 2014 -\\ \vspace{-0.5em}
 \begin{itemize}[noitemsep]
-	\item Setting up a Facebook group and a mailing list.
-	\item Maintaining website, composing newsletter.
-	\item Organizing and conducting specialist courses and providing IT knowledge.
+	\item Developed and maintained the social media presence of the GSS.
+	\item Organized and conducting specialist courses and providing IT knowledge.
 \end{itemize}  & September 2016\phantom{ -} \vspace{-1.0em} \\ 
 \end{tabular}
 
 \section{Skills}
-\begin{tabular}{p{0.2\linewidth}p{0.25\linewidth}p{0.2\linewidth}p{0.25\linewidth}}
-	\textbf{Languages}	& \textbf{Software} &\\
-	\hspace{1em}English (fluent)	& \hspace{1em}Python (very good)& R (good)\\
-	\hspace{1em}German (native)		& \hspace{1em}LaTeX (very good)& Mathematica (good)\\
-	\hspace{1em}Dutch (basic)		& \hspace{1em}Git \& GitHub (very good)& \\
-\end{tabular}
 
+\begin{tabular}{p{0.2\linewidth}p{0.25\linewidth}p{0.25\linewidth}p{0.25\linewidth}}
+	\textbf{Languages}	& \textbf{Software} &\\
+	\hspace{1em}English (fluent)	& \hspace{1em}Python (fluent)& R (proficient)\\
+	\hspace{1em}German (native)		& \hspace{1em}LaTeX (fluent)& Mathematica (proficient)\\
+	\hspace{1em}Dutch (basic)		& \hspace{1em}Git \& GitHub (fluent)& \\
+\end{tabular}
+\vspace{3pt}
 \section{Interests \& Activities}
-\begin{tabular}{ll}
-	Research Interests: & Industrial Organizations, Computational Economics, and Competition in R\&D and ICT\\
+
+\begin{tabular}{lp{0.6\linewidth}}
+	Research Interests: & Industrial Organizations, Data Analysis, Computational Economics, and \mbox{Competition Policy in R\&D and ICT}\\
 	Personal Interests: & Programming, Riddles, Technology, Physics and Science Fiction\\
 	Other Activities:   & Running, Cycling, Swimming, Strategy Games
 \end{tabular}
